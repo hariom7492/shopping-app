@@ -17,7 +17,7 @@ import './sign-in.scss';
          }
      }
 
-     handleSubmit = event =>{
+     handleSubmit = async event =>{
         event.preventDefault();
         this.setState({email:'' , password:''})
      }
